@@ -1,0 +1,2 @@
+# COMP30023_PROJECT_2
+SHA256 Proof of Work Solver
