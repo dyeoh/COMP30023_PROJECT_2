@@ -112,6 +112,7 @@ int main(int argc, char **argv) {
 	timeinfo = localtime ( &rawtime );
 	logFile = fopen(LOG_FILE , "ab+");
 	fprintf(logFile, "[%.24s] [server 0.0.0.0] Server started.\n", asctime (timeinfo));
+	fprintf(stdout,"Server started successfully on port %d, listening for connections, a more detailed log file will be created in the directory.\n", portno);
 	fclose(logFile);
 	
 	listen(listenfd, MAX_CLIENTS);
