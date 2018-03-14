@@ -1,5 +1,0 @@
-[Tue Mar 13 22:50:08 2018] [server 0.0.0.0] Server started.
-[Tue Mar 13 22:50:08 2018] [server 0.0.0.0] Incoming connection from client 127.0.0.1
-[Tue Mar 13 22:50:11 2018] [client 127.0.0.1] [sockid: 4] Successfully connected to server.
-[Tue Mar 13 22:50:21 2018] [client 127.0.0.1] [sockid: 4] Sent PONG to server
-[Tue Mar 13 22:50:21 2018] [server 0.0.0.0] Sent ERRO: Pong reserved for server to client 127.0.0.1 sockid: 4
